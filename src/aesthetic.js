@@ -28,11 +28,10 @@ export default function Aesthetic(props) {
     setState({ ...state,  choice: 2})
   }
   const pickedForest = () =>{
-    var audio = new Audio(forestAud);
-    audio.play();
+
     setState({ ...state,  choice: 3})
   }
-  if (props.numb == 16) {
+  if (props.numb >= 15) {
     return (null)
   }
   if (props.numb > 7 && state.choice == 0) {
