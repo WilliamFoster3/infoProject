@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3c5a2f78.css",
+    "main.js": "/static/js/main.fda1d082.js",
+    "static/js/787.b05ca5f2.chunk.js": "/static/js/787.b05ca5f2.chunk.js",
+    "static/media/pokemon.mp4": "/static/media/pokemon.68f9916f2523e7919f77.mp4",
+    "static/media/jazzLounge.mp3": "/static/media/jazzLounge.0ad1415d5719ed490103.mp3",
+    "static/media/ocean.mp3": "/static/media/ocean.a1210fcb779d9beb1f22.mp3",
+    "static/media/forest.mp3": "/static/media/forest.334fe3dc773e30593656.mp3",
+    "static/media/forestPic.jpg": "/static/media/forestPic.4c4aa3794ccded9902d7.jpg",
+    "static/media/jazzPic.jpg": "/static/media/jazzPic.c2b87388aa175e5982f6.jpg",
+    "static/media/cliffPic.jpg": "/static/media/cliffPic.9e9ae3de999fe7cbc325.jpg",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/index.html",
+    "main.3c5a2f78.css.map": "/static/css/main.3c5a2f78.css.map",
+    "main.fda1d082.js.map": "/static/js/main.fda1d082.js.map",
+    "787.b05ca5f2.chunk.js.map": "/static/js/787.b05ca5f2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3c5a2f78.css",
+    "static/js/main.fda1d082.js"
+  ]
+}

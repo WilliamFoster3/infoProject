@@ -1,0 +1,145 @@
+.buttonHold {
+    padding-top: 50vh;
+  }
+  .buttonHoldHide {
+    padding-top: 50vh;
+    animation: fadeOut linear 100s;
+    -webkit-animation: fadeOut linear 100s;
+    -moz-animation: fadeOut linear 100s;
+    -o-animation: fadeOut linear 100s;
+    -ms-animation: fadeOut linear 100s;
+  }
+  .fade-in-text {
+    position: absolute;
+    display: inline-block;
+    top: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+      text-shadow: 2px 2px #000000;
+    font-size: 40px;
+    color: white;
+  
+  }
+  .fade-in-text[clicked='1'] {
+    animation: clicked linear 1s;
+    -webkit-animation: clicked linear 1s;
+    -moz-animation: clicked linear 1s;
+    -o-animation: clicked linear 1s;
+    -ms-animation: clicked linear 1s;
+  }
+  
+  
+  
+  @keyframes fadeOut {
+    0% {opacity:1;}
+    1.5% {opacity: 0;}
+    100% {opacity:0;}
+  }
+  
+  @-moz-keyframes fadeOut {
+    0% {opacity:1;}
+    1.5% {opacity: 0;}
+    100% {opacity:0;}
+  }
+  
+  @-webkit-keyframes fadeOut {
+    0% {opacity:1;}
+    1.5% {opacity: 0;}
+    100% {opacity:0;}
+  }
+  
+  @-o-keyframes fadeOut {
+    0% {opacity:1;}
+    1.5% {opacity: 0;}
+    100% {opacity:0;}
+  }
+  
+  @-ms-keyframes fadeOut {
+    0% {opacity:1;}
+    1.5% {opacity: 0;}
+    100% {opacity:0;}
+  }
+  
+  
+
+.butt2 {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    display: inline-block;
+    width: 15vw;
+    height: 10vh;
+    margin-left: 8vw;
+    margin-right: 8vw;
+    animation: clicked linear 3s;
+    -webkit-animation: clicked linear 3s;
+    -moz-animation: clicked linear 3s;
+    -o-animation: clicked linear 3s;
+    -ms-animation: clicked linear 3s;
+  }
+
+  @keyframes clicked {
+    0% {opacity:0;}
+    66% {opacity:0;}
+    100% {opacity: 1;}
+  }
+  
+  @-moz-keyframes clicked {
+    0% {opacity:0;}
+    66% {opacity:0;}
+    100% {opacity: 1;}
+  }
+  
+  @-webkit-keyframes clicked {
+    0% {opacity:0;}
+    66% {opacity:0;}
+    100% {opacity: 1;}
+  }
+  
+  @-o-keyframes clicked {
+    0% {opacity:0;}
+    66% {opacity:0;}
+    100% {opacity: 1;}
+  }
+  
+  @-ms-keyframes clicked {
+    0% {opacity:0;}
+    66% {opacity:0;}
+    100% {opacity: 1;}
+  }
+
+  .backgroundImage {
+    animation: clicked3 linear 4s;
+    -webkit-animation: clicked3 linear 4s;
+    -moz-animation: clicked3 linear 4s;
+    -o-animation: clicked3 linear 4s;
+    -ms-animation: clicked3 linear 4s;
+  }
+  @keyframes clicked3 {
+    0% {opacity:0;}
+    66% {opacity:0;}
+    100% {opacity: 1;}
+  }
+  
+  @-moz-keyframes clicked3 {
+    0% {opacity:0;}
+    66% {opacity:0;}
+    100% {opacity: 1;}
+  }
+  
+  @-webkit-keyframes clicked3 {
+    0% {opacity:0;}
+    66% {opacity:0;}
+    100% {opacity: 1;}
+  }
+  
+  @-o-keyframes clicked3 {
+    0% {opacity:0;}
+    66% {opacity:0;}
+    100% {opacity: 1;}
+  }
+  
+  @-ms-keyframes clicked3 {
+    0% {opacity:0;}
+    66% {opacity:0;}
+    100% {opacity: 1;}
+  }

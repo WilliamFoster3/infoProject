@@ -1,0 +1,199 @@
+.App {
+  text-align: center;
+  background: rgb(0,0,0);
+  background: linear-gradient(90deg, rgba(0,0,0,0.846673703661152) 0%, rgba(42,42,42,1) 82%);
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background: rgb(0,0,0);
+  background: linear-gradient(90deg, rgba(0,0,0,0.846673703661152) 0%, rgba(42,42,42,1) 82%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+.fade-in-text {
+  position: absolute;
+  display: inline-block;
+  top: 20%;
+  font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px #000000;
+  font-size: 40px;
+  color: white;
+
+}
+.fade-in-text[clicked='1'] {
+  animation: clicked linear 1s;
+  -webkit-animation: clicked linear 1s;
+  -moz-animation: clicked linear 1s;
+  -o-animation: clicked linear 1s;
+  -ms-animation: clicked linear 1s;
+}
+
+
+.hiddenPart {
+  display: n;
+}
+.aest {
+  visibility: visible;
+}
+.butt {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  display: inline-block;
+  width: 20vw;
+  height: 10vh;
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+.butt[clicked='1'] {
+  animation: clicked2 linear 2s;
+  -webkit-animation: clicked2 linear 2s;
+  -moz-animation: clicked2 linear 2s;
+  -o-animation: clicked2 linear 2s;
+  -ms-animation: clicked2 linear 2s;
+}
+@keyframes clicked {
+  0% {opacity:0;}
+  100% {opacity: 1;}
+}
+.player {
+  position: absolute;
+  padding-bottom: 50%;
+}
+.controlBar {
+  visibility: hidden;
+}
+@-moz-keyframes clicked {
+  0% {opacity:0;}
+  100% {opacity: 1;}
+}
+
+@-webkit-keyframes clicked {
+  0% {opacity:0;}
+  100% {opacity: 1;}
+}
+
+@-o-keyframes clicked {
+  0% {opacity:0;}
+  100% {opacity: 1;}
+}
+
+@-ms-keyframes clicked {
+  0% {opacity:0;}
+  100% {opacity: 1;}
+}
+.fade-in-text-hide {
+  position: absolute;
+  display: inline-block;
+  top: 20%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  color: white;
+  animation: fadeOut linear 100s;
+  -webkit-animation: fadeOut linear 100s;
+  -moz-animation: fadeOut linear 100s;
+  -o-animation: fadeOut linear 100s;
+  -ms-animation: fadeOut linear 100s;
+}
+.fade-in-text[clicked='2'] {
+  animation: clicked2 linear 3s;
+  -webkit-animation: clicked2 linear 3s;
+  -moz-animation: clicked2 linear 3s;
+  -o-animation: clicked2 linear 3s;
+  -ms-animation: clicked2 linear 3s;
+}
+@keyframes clicked2 {
+  0% {opacity:0;}
+  66% {opacity:0;}
+  100% {opacity: 1;}
+}
+
+@-moz-keyframes clicked2 {
+  0% {opacity:0;}
+  66% {opacity:0;}
+  100% {opacity: 1;}
+}
+
+@-webkit-keyframes clicked2 {
+  0% {opacity:0;}
+  66% {opacity:0;}
+  100% {opacity: 1;}
+}
+
+@-o-keyframes clicked2 {
+  0% {opacity:0;}
+  66% {opacity:0;}
+  100% {opacity: 1;}
+}
+
+@-ms-keyframes clicked2 {
+  0% {opacity:0;}
+  66% {opacity:0;}
+  100% {opacity: 1;}
+}
+
+
+.buttonHold {
+  padding-top: 50vh;
+}
+.buttonHoldHide {
+  padding-top: 50vh;
+  animation: fadeOut linear 100s;
+  -webkit-animation: fadeOut linear 100s;
+  -moz-animation: fadeOut linear 100s;
+  -o-animation: fadeOut linear 100s;
+  -ms-animation: fadeOut linear 100s;
+}
+
+
+@keyframes fadeOut {
+  0% {opacity:1;}
+  1.5% {opacity: 0;}
+  100% {opacity:0;}
+}
+
+@-moz-keyframes fadeOut {
+  0% {opacity:1;}
+  1.5% {opacity: 0;}
+  100% {opacity:0;}
+}
+
+@-webkit-keyframes fadeOut {
+  0% {opacity:1;}
+  1.5% {opacity: 0;}
+  100% {opacity:0;}
+}
+
+@-o-keyframes fadeOut {
+  0% {opacity:1;}
+  1.5% {opacity: 0;}
+  100% {opacity:0;}
+}
+
+@-ms-keyframes fadeOut {
+  0% {opacity:1;}
+  1.5% {opacity: 0;}
+  100% {opacity:0;}
+}
